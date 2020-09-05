@@ -1,0 +1,131 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#infobutton {
+	z-index: 100;
+	position: absolute;
+	margin: 10px 0 0 50px;
+	cursor: pointer;
+
+	box-shadow: 0 1px 7px rgba(0,0,0,0.4);
+	background: #f8f8f9;
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
+	padding: 6px 10px 6px 6px;
+	color: #333;
+	background: #fff;
+
+	font-size: larger;
+	font-weight: bold;
+}
+
+#infodivtext {
+	font-family: sans-serif;
+}
+
+#infodiv {
+	border-radius: 10px;
+	z-index: 1900;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	bottom: 50px;
+	right: 180px;
+	overflow: auto;
+	background-color: #bbbbbb;
+	display: none;
+}
+
+#infodivclose {
+	margin: 5px 10px 0 0;
+	cursor: pointer;
+}
+
+#infodivtext {
+	font-family: sans-serif;
+}
+
+.infoheader {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#idIframeArea, #idLinkArea {
+	width: 99%;
+	max-width: 800px;
+}
+
+#infodiv a:link, #infodiv a:active, #infodiv a:visited {
+	color: black;
+}
+
+#infodiv a:hover {
+	color: red;
+}
+
+.infoimgtr {
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.floatno {
+	clear: both;
+}
+
+.infoexampleimg {
+	margin: 0px 20px 10px 20px;
+	width: 160px;
+}
+
+.indent {
+	margin: 10px 10px 10px 10px;
+}
+
+.indentlr {
+	margin: 0 10px 0 10px;
+}
+
+.margintop {
+	margin-top: 1em;
+}
+
+.margintop .bienenkistetext {
+	padding-top: 2em;
+	padding-left: 2em;
+}
+
+.divcontact {
+	color: gray;
+	float: right;
+}
+
+#flattrdiv {
+	bottom: 5px;
+	left: 5px;
+	z-index: 2001;
+	position: absolute;
+	width: 93px;
+	height: 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.standorte {
+	box-shadow: 0 1px 7px rgba(0,0,0,0.4);
+	background: #f8f8f9;
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
+	padding: 6px 10px 6px 6px;
+	color: #333;
+	background: #fff;
+}
+
+.standorte-header {
+	font-size: larger;
+	font-weight: bold;
+	display: block;
+	position: relative;
+}
+
+.standorte-line {
+	display: block;
+	position: relative;
+	vertical-align: middle;
+
+}
+
+.standorte-select {
+	margin-left: 20px;
+}
+
+.standorte-label {
+}
+
+.standorte-link {
+}
+

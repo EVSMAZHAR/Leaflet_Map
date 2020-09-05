@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>standorte</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="resources/css/leaflet.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/map.css">
+	<link rel="stylesheet" type="text/css" media="handheld" href="resources/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/leaflet-openweathermap.css">
+	<script src="resources/js/leaflet.js"></script>
+	<script src="resources/js/bing.js"></script>
+	<script src="resources/js/Permalink.js"></script>
+	<script src="resources/js/Permalink.Layer.js"></script>
+	<script src="resources/js/Permalink.StandorteControl.js"></script>
+	<script src="resources/js/leaflet-flattrbutton.js"></script>
+	<script type="text/javascript" src="resources/js/leaflet-openweathermap.js"></script>
+	<script src="resources/js/standorte.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/css/standorte.css">
+	<script src="resources/js/Map.js"></script>
+
+</head>
+<body>
+	<div id="infobutton" onclick="toggleInfo()">standorte</div>
+	<div id="map" class="leaflet-container leaflet-fade-anim" tabindex="0" style="position: relative>
+	
+	</div>
+<div style="width:400px ;height:400px">
+<div id="infodiv">
+		 <div id="infodivclose" class="floatright" onclick="hideInfo()"><img src="resources/images/close.png" title="Close"></div> 
+		<div class="indent"><span class="infoheader">Here Replace your text Heading plese.</span></div> 
+		 <div class="floatno"></div> 
+		 <div id="infodivtext" class="indentlr"> 
+
+
+
+<div class="margintop"><span class="bold">Here Replace your text Heading plese.</span></div> 
+
+<div><textarea id="idLinkArea" readonly="readonly" rows="2" onclick="select()"></textarea></div> 
+
+<textarea id="idIframeArea" readonly="readonly" rows="4" onclick="select()"></textarea></div> 
+
+<div class="margintop">
+
+</div> 
+ <div class="floatno"></div>
+ </div> 
+</div>
+	
+	<script type=text/javascript>
+		initMap();
+		
+	</script>
+
+</body>
+</html>
